@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image
 
-
+print(test)
 def getImArray(nom) :
 	im = Image.open(nom)
 	imArray = np.array(im)
