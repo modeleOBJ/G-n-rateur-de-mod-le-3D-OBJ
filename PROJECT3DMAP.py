@@ -19,7 +19,7 @@ def listPoints(tabAlt):
 	for i in range(longueur):
 		for j in range(largeur):
 			cpt+=1
-			fichier.write('v '+str(i)+' '+str(j)+' '+str(tabAlt[i][j]*2)+'\n')
+			fichier.write('v '+str(i)+' '+str(j)+' '+str(tabAlt[i][j])+'\n')
 	fichier.write('\n\n\n')
 	fichier.close()
 	print ('fin de l\'écriture des points, nombre de points : ', cpt)
